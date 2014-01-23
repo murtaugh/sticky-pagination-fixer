@@ -30,11 +30,11 @@ The amount of overlap, of course, varies based on the height of the sticky heade
 
 ##Take over that scroll.
 
-Do your readers a favor and install The Sticky Pagination Fixer. It captures native pagination-related events, recalculates the height of the viewport, and then scrolls the page to the correct point. Here's a demo.
+Do your readers a favor and install The Sticky Pagination Fixer. It captures native pagination-related events, recalculates the height of the viewport, and then scrolls the page to the correct point. <a href="http://murtaugh.github.io/sticky-pagination-fixer/">Here's a demo.</a>
 
 ##Some notes.
 
-* Sometimes we use the space bar for other things, like... entering spaces in text fields. The Sticky Scroll Fix takes that into account.
+* Sometimes we use the space bar for other things, like... entering spaces in text fields. The Sticky Pagination Fixer takes that into account.
 * Sometimes we also use the space bar for play/pause events in media players. This is quite a bit trickier — we'll need to think about this.
 * There are probably some other native behaviors we should be accommodating as well.
 * You might be thinking, "Aaagh, JavaScript!" Well, stop. If JS isn't available or this script breaks? _Scrolling will happen as normal._ "Graceful degradation", my friends. (Or "progressive enhancement", if you absolutely must.)
