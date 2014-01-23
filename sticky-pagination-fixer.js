@@ -40,7 +40,7 @@ window.smoothScrollTo = (function () {
 	return function (target) {
 
 		var offset = window.pageYOffset,
-			delta	= target - window.pageYOffset;
+			delta = target - window.pageYOffset;
 		
 		start = Date.now();
 
