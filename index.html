@@ -8,8 +8,8 @@
 	
 	<title>The Sticky Pagination Fixer</title>
 	
-	<link rel="stylesheet" href="css/normalize.css" />
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="demo-assets/css/normalize.css" />
+	<link rel="stylesheet" href="demo-assets/css/style.css" />
 	
 </head>
 
@@ -38,13 +38,13 @@
 	
 	<p>Take a look at this, a diagram of a normal pagination event:</p>
 	
-	<figure><img src="img/figure-1.png" alt="a diagram of a normal pagination event"></figure>
+	<figure><img src="demo-assets/img/figure-1.png" alt="a diagram of a normal pagination event"></figure>
 	
 	<p>The box is the viewport, and the red line is the last thing a reader sees before triggering a "paginate down" event. The browsers' pagination logic is designed so the red line is also the first thing the reader sees after their eyes scan back up.</p>
 	
 	<p>Now look what happens when a sticky header enters the picture (heh):</p>
 	
-	<figure><img src="img/figure-2.png" alt="a diagram of a pagination event with a sticky header"></figure>
+	<figure><img src="demo-assets/img/figure-2.png" alt="a diagram of a pagination event with a sticky header"></figure>
 	
 	<p>Because the effective height of the viewport is being altered by the sticky header, the internal browser logic means not only is our red line totally obscured but so are two other lines we haven't even seen yet. The reader now has to scroll back up to see what they missed. If you can't see how annoying this is you might be a horrible monster.</p>
 	
