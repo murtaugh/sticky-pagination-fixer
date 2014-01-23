@@ -1,7 +1,5 @@
 # The Sticky Pagination Fixer
 
-Does your site have a sticky header? You should use this script to fix keyboard-based pagination events.
-
 ##Sticky headers are super annoying for spacebar paginators.
 	
 _Why?_
@@ -24,7 +22,7 @@ Now look what happens when a sticky header enters the picture (heh):
 
 ![a diagram of a pagination event with a sticky header](https://github.com/murtaugh/sticky-pagination-fixer/blob/master/demo-assets/img/figure-2.png?raw=true)
 
-Because the effective height of the viewport is being altered by the sticky header, the internal browser logic means not only is our red line totally obscured but so are two other lines we haven't even seen yet. The reader now has to scroll back up to see what they missed. If you can't see how annoying this is you might be a horrible monster.
+Because the effective height of the viewport is being altered by the sticky header, it means not only is our red line totally obscured but so are two other lines we haven't even seen yet. The reader now has to scroll back up to see what they missed (if they even notice). If you can't see how annoying this is you might be a horrible monster.
 
 _Oh. Ok._
 
