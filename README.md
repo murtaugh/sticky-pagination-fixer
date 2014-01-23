@@ -16,13 +16,13 @@ _Again: So?_
 
 Take a look at this, a diagram of a normal pagination event:
 
-![a diagram of a normal pagination event](https://raw.github.com/murtaugh/sticky-pagination-fixer/demo-assets/img/figure-1.png)
+![a diagram of a normal pagination event](https://github.com/murtaugh/sticky-pagination-fixer/blob/master/demo-assets/img/figure-1.png?raw=true)
 
 The box is the viewport, and the red line is the last thing a reader sees before triggering a "paginate down" event. The browsers' pagination logic is designed so the red line is also the first thing the reader sees after their eyes scan back up.
 
 Now look what happens when a sticky header enters the picture (heh):
 
-![a diagram of a pagination event with a sticky header](https://raw.github.com/murtaugh/sticky-pagination-fixer/demo-assets/img/figure-2.png)
+![a diagram of a pagination event with a sticky header](https://github.com/murtaugh/sticky-pagination-fixer/blob/master/demo-assets/img/figure-2.png?raw=true)
 
 Because the effective height of the viewport is being altered by the sticky header, the internal browser logic means not only is our red line totally obscured but so are two other lines we haven't even seen yet. The reader now has to scroll back up to see what they missed. If you can't see how annoying this is you might be a horrible monster.
 
