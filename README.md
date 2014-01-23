@@ -37,6 +37,7 @@ Do your readers a favor and install The Sticky Pagination Fixer. It captures nat
 * Sometimes we use the space bar for other things, like... entering spaces in text fields. The Sticky Pagination Fixer takes that into account.
 * Sometimes we also use the space bar for play/pause events in media players. This is quite a bit trickier — we'll need to think about this.
 * There are probably some other native behaviors we should be accommodating as well.
+* No jQuery required.
 * You might be thinking, "Aaagh, JavaScript!" Well, stop. If JS isn't available or this script breaks? _Scrolling will happen as normal._ "Graceful degradation", my friends. (Or "progressive enhancement", if you absolutely must.)
 
 </ul>
