@@ -30,12 +30,7 @@ The amount of overlap, of course, varies based on the height of the sticky heade
 
 ##Take over that scroll.
 
-Do your readers a favor and install The Sticky Pagination Fixer. It captures native pagination-related events, recalculates the height of the viewport, and then scrolls the page to the correct point. It's in use on this page — try it out:
-
-# Highlight the lowest line of text you can see.
-# Now hit the space bar.
-# See how you can still see the highlighted text? (Like magic.) Go ahead and hit page up or shift-space to see it happen in reverse.
-# Now disable JavaScript and repeat. See the difference? So annoying.
+Do your readers a favor and install The Sticky Pagination Fixer. It captures native pagination-related events, recalculates the height of the viewport, and then scrolls the page to the correct point. Here's a demo.
 
 ##Some notes.
 
