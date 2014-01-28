@@ -14,8 +14,16 @@ keydown = function (e) {
 		var newViewportHeight = viewportHeight - stickyHeaderHeight - readAssistOffset;
 	
 		e.preventDefault();
-
-		isShift = window.event.shiftKey || e.keyCode === 33 ? true : false;
+		
+		if(e) {
+		
+			isShift = e.shiftKey || e.keyCode === 33 ? true : false;
+		
+		} else {
+			
+			isShift = window.event.shiftKey || e.keyCode === 33 ? true : false;
+			
+		};
 	
 		currScrollPosition = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
 	
@@ -40,7 +48,7 @@ window.smoothScrollTo = (function () {
 	return function (target) {
 
 		var offset = window.pageYOffset,
-			delta	= target - window.pageYOffset;
+			delta = target - window.pageYOffset;
 		
 		start = Date.now();
 
