@@ -1,7 +1,8 @@
 
+var stickyItem = 'sticky-header';	// the ID of the fixed-position element
+var readAssistOffset = 40;			// screen height - this offset value = scroll distance
+var duration = 250;					// scroll speed in ms
 var doc = document.documentElement;
-var readAssistOffset = 40; // might need finessing
-var duration = 250; // might need finessing
 
 keydown = function (e) {
 
@@ -10,7 +11,7 @@ keydown = function (e) {
 	if ((e.keyCode === 32 && curElement === "BODY") || (e.keyCode === 33 || e.keyCode === 34)) {
 
 		var viewportHeight = window.innerHeight;
-		var stickyHeaderHeight = document.getElementById('sticky-header').offsetHeight;
+		var stickyHeaderHeight = document.getElementById(stickyItem).offsetHeight;
 		var newViewportHeight = viewportHeight - stickyHeaderHeight - readAssistOffset;
 	
 		e.preventDefault();
