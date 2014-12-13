@@ -30,7 +30,7 @@ The amount of overlap, of course, varies based on the height of the sticky heade
 
 ##Take over that scroll.
 
-Do your readers a favor and install The Sticky Pagination Fixer. It captures native pagination-related events, recalculates the height of the viewport, and then scrolls the page to the correct point. Here's a demo.
+Do your readers a favor and install [The Sticky Pagination Fixer](https://github.com/murtaugh/sticky-pagination-fixer). It captures native pagination-related events, recalculates the height of the viewport, and then scrolls the page to the correct point. Here's a demo.
 
 ##Some notes.
 
